@@ -1,21 +1,23 @@
 import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
-  resultImc: {
-    flex: 1,
-    marginTop: 15,
-    paddingTop: 20,
-    borderRadius: 50,
+  contextImc: {
+    marginTop: 20,
+    paddingTop: 15,
     alignItems: "center",
-    color: "#FF0043",
+    width: "100%",
   },
-  numberImc: { fontWeight: "bold", fontSize: 48, width: "100%" },
-  information: {
-    fontSize: 18,
-    color: "#FF0043",
+  resultImc: {
+    fontSize: 48,
+    color: "#ff0043",
     fontWeight: "bold",
   },
-  boxShareButton: {
+  titleResultImc: {
+    fontSize: 18,
+    color: "#ff0043",
+    fontWeight: "bold",
+  },
+  boxSharebutton: {
     width: "100%",
     alignItems: "center",
     marginBottom: 10,
